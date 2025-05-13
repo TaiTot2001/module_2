@@ -36,7 +36,6 @@ public class readNumbersIntoWords {
                     output = "Nine";
                     break;
             }
-            ;
         }
     }
 }
