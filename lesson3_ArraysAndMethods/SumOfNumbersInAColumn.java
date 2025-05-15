@@ -26,9 +26,15 @@ public class SumOfNumbersInAColumn {
         System.out.print("Bạn muốn tính tổng của cột thứ mấy? ");
         int total_cols = sc.nextInt();
         int total = 0;
+        String displayTotal = "";
         for (int i = 0; i < arr.length; i++) {
             total += arr[i][total_cols-1];
+            displayTotal += arr[i][total_cols-1];
+            if(i<arr.length-1){
+
+                displayTotal += " + ";
+            }
         }
-        System.out.println("Tổng các phần tử của cột "+total_cols+" là: "+total);
+        System.out.println("Tổng các phần tử của cột "+total_cols+" là: "+displayTotal+" = "+total);
     }
 }
