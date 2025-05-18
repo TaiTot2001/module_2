@@ -26,7 +26,7 @@ public class Quadratic {
 //        double b = sc.nextDouble();
 //        System.out.print("Nhập vào giá trị của c = ");
 //        double c = sc.nextDouble();
-        QuadraticEquation quadraticEquation = new QuadraticEquation(1,-4,6);
+        QuadraticEquation quadraticEquation = new QuadraticEquation(1,2.0,3);
 
         System.out.println("Giá trị delta: Δ = b² - 4ac = " + quadraticEquation.getDiscriminant());
         if (quadraticEquation.hasTwoRoots()) {
