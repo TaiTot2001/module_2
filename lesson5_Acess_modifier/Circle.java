@@ -22,12 +22,15 @@ public class Circle {
         System.out.println("Bán kính  hình tròn là: "+ getRadius());
         System.out.println("Diện tích hình tròn là: "+ getArea());
         System.out.println("Màu: "+ getColor());
+        System.out.println("-----------------------------------------------\n");
     }
     public static void main(String[] args) {
         Circle circle = new Circle();
         circle.display();
         Circle circle2 = new Circle(3.0,"blue");
         circle2.display();
+        Circle circle3 = new Circle(3.0,"red");
+        circle3.display();
     }
 
 }
