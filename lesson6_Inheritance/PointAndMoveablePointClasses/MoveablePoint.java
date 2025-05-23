@@ -84,7 +84,7 @@ public class MoveablePoint extends Point {
         moveablePoint2.setSpeed(5, 5);
         System.out.println(Arrays.toString(moveablePoint2.getSpeed()));
 
-        Point point = new Point();
+        Point point = new MoveablePoint();
         System.out.println("\n"+point);
         point.setXY(9,9);
         System.out.println(Arrays.toString(point.getXY()));
