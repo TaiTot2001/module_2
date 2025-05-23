@@ -1,4 +1,5 @@
 package Point2DClassAndPoint3DClass;
+import java.util.Arrays;
 
 public class Point3D extends Point2D {
     private float z = 0.0f;
@@ -58,8 +59,7 @@ public class Point3D extends Point2D {
         System.out.println(point2D);
         point2D.setXY(5,9);
         point2D.setY(10);
-        float[] tempXY = point2D.getXY();
-        System.out.println(tempXY[0] +" , "+tempXY[1]);
+        System.out.println(Arrays.toString(p.getXYZ()));
     }
 }
 
