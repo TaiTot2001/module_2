@@ -35,6 +35,9 @@ public class Main {
             else if (shape instanceof Rectangle) {
                 areaAfter = ((Rectangle) shape).getArea();
             }
+            else if (shape instanceof Square) {
+                areaAfter = ((Square) shape).getArea();
+            }
 
             System.out.println("After resize:");
             System.out.println(shape);
