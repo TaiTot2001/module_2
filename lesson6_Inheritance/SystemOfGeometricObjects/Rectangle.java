@@ -1,3 +1,5 @@
+package SystemOfGeometricObjects;
+
 public class Rectangle extends Shape {
     private double length = 1.0;
     private double width = 1.0;

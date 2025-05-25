@@ -1,3 +1,5 @@
+package SystemOfGeometricObjects;
+
 public class Shape {
     private String color = "green ";
     private boolean filled = true;
