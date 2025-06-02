@@ -7,6 +7,7 @@ public class MyList<E> {
     private static final int DEFAULT_CAPACITY = 10;
     private Object[] elements;
 
+
     public MyList() {
         elements = new Object[DEFAULT_CAPACITY];
     }
@@ -20,7 +21,8 @@ public class MyList<E> {
         if (size == elements.length) {
             ensureCapa();
         }
-        elements[size++] = e;
+        elements[size] = e;
+        size++;
     }
 
     public E get(int i) {
