@@ -1,6 +1,4 @@
-package ArrayList;
-
-import java.util.Arrays;
+package BaiTap_1;
 
 public class MyList<E> {
     private int size = 0;

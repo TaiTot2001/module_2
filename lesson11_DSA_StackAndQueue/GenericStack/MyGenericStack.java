@@ -16,7 +16,7 @@ public class MyGenericStack<T> {
         if(isEmpty()){
             throw new EmptyStackException();
         }
-        return stack.removeFirst();
+        return stack.pop();
     }
     public int size() {
         return stack.size();

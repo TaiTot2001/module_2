@@ -1,7 +1,4 @@
-package LinkedList;
-
-import java.sql.SQLOutput;
-import java.util.Arrays;
+package Practice_LinkedList;
 
 public class TestMyLinkedList {
     public static void main(String[] args) {

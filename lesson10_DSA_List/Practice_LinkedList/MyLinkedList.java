@@ -1,4 +1,4 @@
-package LinkedList;
+package Practice_LinkedList;
 
 
 public class MyLinkedList {

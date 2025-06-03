@@ -1,4 +1,4 @@
-package ArrayList;
+package BaiTap_1;
 
 public class MyListTest {
     public static void main(String[] args) {
