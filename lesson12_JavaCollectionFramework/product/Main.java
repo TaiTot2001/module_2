@@ -5,6 +5,7 @@ public class Main {
         ProductManager manager = new ProductManager();
         Scanner scanner = new Scanner(System.in);
 
+
         while (true) {
             System.out.println("\n--- MENU ---");
             System.out.println("1. Thêm sản phẩm");
@@ -29,15 +30,16 @@ public class Main {
                     String name = scanner.nextLine();
                     System.out.print("Nhập giá: ");
                     double price = scanner.nextDouble();
-                    manager.addProduct(new Product(id, name, price));
+                    Product product = new Product(id, name, price);
+                    manager.addProduct(product);
                 }
                 case 2 -> {
                     System.out.print("Nhập id cần sửa: ");
                     int id = scanner.nextInt();
                     scanner.nextLine();
-                    System.out.print("Tên mới: ");
+                    System.out.println("Tên mới: ");
                     String name = scanner.nextLine();
-                    System.out.print("Giá mới: ");
+                    System.out.println("Giá mới: ");
                     double price = scanner.nextDouble();
                     boolean updated = manager.updateProduct(id, name, price);
                     if (!updated) System.out.println("Không tìm thấy sản phẩm.");

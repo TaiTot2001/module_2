@@ -10,10 +10,10 @@ public class ProductManager {
 
     // Sửa thông tin sản phẩm theo id
     public boolean updateProduct(int id, String newName, double newPrice) {
-        for (Product p : productList) {
-            if (p.getId() == id) {
-                p.setName(newName);
-                p.setPrice(newPrice);
+        for (Product product : productList) {
+            if (product.getId() == id) {
+                product.setName(newName);
+                product.setPrice(newPrice);
                 return true;
             }
         }
@@ -22,7 +22,7 @@ public class ProductManager {
 
     // Xoá sản phẩm theo id
     public boolean removeProduct(int id) {
-        return productList.removeIf(p -> p.getId() == id);
+        return productList.removeIf(product -> product.getId() == id);
     }
 
     // Hiển thị danh sách sản phẩm
