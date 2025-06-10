@@ -33,3 +33,7 @@ public class SelectionSortByStep {
 
     }
 }
+
+//5,2,1,6
+//i=1,pos=1:2,5,1,6
+//i=2,pos=2: 2,5,5,6 .. i=2,pos=1: 1,2,5,6
