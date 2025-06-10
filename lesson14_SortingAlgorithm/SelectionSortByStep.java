@@ -29,7 +29,6 @@ public class SelectionSortByStep {
         System.out.println("--------------------------------------------------------");
         System.out.println("Bat dau xu ly sap xep......");
         selection(list);
-//        System.out.println(Arrays.toString(list));
 
     }
 }
