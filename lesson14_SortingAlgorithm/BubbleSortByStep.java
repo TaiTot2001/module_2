@@ -16,6 +16,7 @@ public class BubbleSortByStep {
         System.out.println(Arrays.toString(list));
         System.out.println("Bat dau xu ly sap xep......");
         bubbleSortByStep(list);
+        
     }
     public static void bubbleSortByStep(int[] list){
         boolean needNextPass = true;
@@ -38,5 +39,6 @@ public class BubbleSortByStep {
             System.out.println(Arrays.toString(list));
             System.out.println();
         }
+
     }
 }
