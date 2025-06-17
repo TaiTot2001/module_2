@@ -10,7 +10,7 @@ public class ReadFileExample {
             }
             FileReader fr = new FileReader(file);
             BufferedReader br = new BufferedReader(fr);
-            String line = "";
+            String line;
             int sum = 0;
             while ((line = br.readLine()) != null) {
                 System.out.println(line);
