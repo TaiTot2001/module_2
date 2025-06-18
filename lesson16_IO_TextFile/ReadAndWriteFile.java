@@ -46,12 +46,14 @@ public class ReadAndWriteFile {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhập vào đường dẫn của file: ");
-        String filePath = sc.nextLine();
+        System.out.println("Nhập vào đường dẫn tệp nguồn : ");
+        String sourcePath = sc.nextLine();
+        System.out.println("Nhập vào đường dẫn tệp đích");
+        String  targetPath = sc.nextLine();
         ReadAndWriteFile readAndWriteFile = new ReadAndWriteFile();
-        List<Integer> number = readAndWriteFile.readFile(filePath);
+        List<Integer> number = readAndWriteFile.readFile(sourcePath);
         int maxValue = findMax(number);
-        readAndWriteFile.writeFile("file/result.txt", maxValue);
+        readAndWriteFile.writeFile(targetPath, maxValue);
 
 
 //        ReadAndWriteFile readAndWriteFile = new ReadAndWriteFile();
