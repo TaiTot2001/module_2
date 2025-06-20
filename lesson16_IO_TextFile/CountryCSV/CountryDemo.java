@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 public class CountryDemo {
     public static final List<Country> countries = new ArrayList<>();
-
     public static void main(String[] args) {
         loadCountriesFromFile();
         System.out.println("========Danh sách quốc gia========");

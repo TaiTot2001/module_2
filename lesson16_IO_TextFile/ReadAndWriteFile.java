@@ -8,9 +8,8 @@ public class ReadAndWriteFile {
         List<Integer> numbers = new ArrayList<>();
         File file = new File(filePath);
         try {
-            if (!file.exists()) {
-                throw new FileNotFoundException();
-            }
+            if (!file.exists()) throw new FileNotFoundException();
+
             BufferedReader br = new BufferedReader(new FileReader(file));
             String line;
             while ((line = br.readLine()) != null) {
@@ -49,7 +48,7 @@ public class ReadAndWriteFile {
         System.out.println("Nhập vào đường dẫn tệp nguồn : ");
         String sourcePath = sc.nextLine();
         System.out.println("Nhập vào đường dẫn tệp đích");
-        String  targetPath = sc.nextLine();
+        String targetPath = sc.nextLine();
         ReadAndWriteFile readAndWriteFile = new ReadAndWriteFile();
         List<Integer> number = readAndWriteFile.readFile(sourcePath);
         int maxValue = findMax(number);
