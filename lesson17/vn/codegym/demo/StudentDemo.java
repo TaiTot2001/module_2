@@ -14,13 +14,13 @@ public class StudentDemo {
     }
 
     private static void writeStudent(Student student) throws IOException {
-        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("student.dat"));
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("ThucHanh_CopyFile/student.dat"));
         oos.writeObject(student);
         oos.close();
     }
 
     public static Student readStudent() throws IOException, ClassNotFoundException {
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("student.dat"));
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("ThucHanh_CopyFile/student.dat"));
         return (Student) ois.readObject();
     }
 }

@@ -49,6 +49,7 @@ public class CountryDemo {
             }
         }
     }
+
     private static void loadCountriesFromFile() {
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader("CountryCSV/country.csv"))) {
             String line;
@@ -98,6 +99,7 @@ public class CountryDemo {
         System.out.println("Chúc mừng bạn đã thêm quốc gia mới thành công!");
 
     }
+
     private static Country inputCountry() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập ID của quốc gia: ");
