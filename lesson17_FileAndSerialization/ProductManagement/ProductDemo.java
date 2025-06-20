@@ -105,6 +105,7 @@ public class ProductDemo {
             e.printStackTrace();
         }
     }
+    @SuppressWarnings("unchecked")
     private static List<Product> readDataFromFile() {
         File file = new File(filePath);
         if (!file.exists()) {
