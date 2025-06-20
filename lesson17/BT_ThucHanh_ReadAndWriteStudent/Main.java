@@ -27,9 +27,9 @@ public class Main {
         students.add(new Student(2, "Mai Thanh Trúc", "Nam Định"));
         students.add(new Student(3, "Bùi Thanh Trọng", "Nam Định"));
         students.add(new Student(4, "Nguyễn Văn Trường", "Ninh Bình"));
-        writeDataToFile("Students.txt", students);
+        writeDataToFile("BT_ThucHanh_ReadAndWriteStudent/Students.txt", students);
         // Đọc file Students.txt sau khi ghi
-        List<Student> studentDataFromFile = readDataFromFile("Students.txt");
+        List<Student> studentDataFromFile = readDataFromFile("BT_ThucHanh_ReadAndWriteStudent/Students.txt");
         System.out.printf("%-10s %-15s %-10s\n", "ID", "NAME", "ADDRESS");
         for (Student student : studentDataFromFile) {
             System.out.println(student);
