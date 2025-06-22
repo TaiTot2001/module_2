@@ -37,6 +37,10 @@ public class Main {
             }
             else if (shape instanceof Square) {
                 areaAfter = ((Square) shape).getArea();
+
+            }
+            if (shape instanceof Colorable) {
+                ((Colorable) shape).howToColor();
             }
 
             System.out.println("After resize:");

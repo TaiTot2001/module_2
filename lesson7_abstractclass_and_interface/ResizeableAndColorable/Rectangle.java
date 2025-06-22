@@ -1,6 +1,6 @@
 package ImplementTheResizeableInterFaceForGeometryClasses;
 
-public class Rectangle extends Shape implements Resizeable {
+public  class Rectangle extends Shape implements Resizeable,Colorable {
     private double width = 1.0;
     private double length = 1.0;
 
@@ -56,4 +56,9 @@ public class Rectangle extends Shape implements Resizeable {
                 + ", which is a subclass of "
                 + super.toString();
     }
+    @Override
+    public void howToColor() {
+        System.out.println("Color all four sides.");
+    }
+
 }
