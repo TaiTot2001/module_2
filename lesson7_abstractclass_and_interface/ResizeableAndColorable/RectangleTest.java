@@ -1,4 +1,4 @@
-package ImplementTheResizeableInterFaceForGeometryClasses;
+package ResizeableAndColorable;
 
 public class RectangleTest {
     public static void main(String[] args) {

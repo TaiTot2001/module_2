@@ -1,4 +1,4 @@
-package ImplementTheResizeableInterFaceForGeometryClasses;
+package ResizeableAndColorable;
 
 public  class Square extends Rectangle implements Resizeable, Colorable {
     public Square() {

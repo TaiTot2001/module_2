@@ -1,4 +1,4 @@
-package ImplementTheResizeableInterFaceForGeometryClasses;
+package ResizeableAndColorable;
 
 import java.util.Random;
 

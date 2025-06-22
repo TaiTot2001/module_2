@@ -1,4 +1,4 @@
-package ImplementTheResizeableInterFaceForGeometryClasses;
+package ResizeableAndColorable;
 
 public class CircleTest {
     public static void main(String[] args) {

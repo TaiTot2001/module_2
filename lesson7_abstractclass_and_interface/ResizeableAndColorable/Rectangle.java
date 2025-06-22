@@ -1,4 +1,4 @@
-package ImplementTheResizeableInterFaceForGeometryClasses;
+package ResizeableAndColorable;
 
 public  class Rectangle extends Shape implements Resizeable,Colorable {
     private double width = 1.0;

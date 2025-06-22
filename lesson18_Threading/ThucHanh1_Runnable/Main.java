@@ -11,5 +11,8 @@ public class Main {
         RunnableDemo runnableDemo2 = new RunnableDemo("Thread-2-Send-Email");
         runnableDemo2.start();
         System.out.println("ThucHanh1_Runnable.Main thread stopped !!");
+
+
+
     }
 }
